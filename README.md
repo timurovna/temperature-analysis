@@ -70,7 +70,7 @@ Slight variability year to year, but overall stable seasonal transition window
 
 3. Detecting Long-Term Warming Trend
 
-To evaluate whether Atlanta summers are getting warmer, a second CUSUM analysis was performed on annual average temperatures.
+To evaluate whether summers are getting warmer, a second CUSUM analysis was performed on annual average temperatures.
 
 Approach:
 Construct yearly mean temperatures (1996–2015)
@@ -107,3 +107,7 @@ Time-series visualization,
 Descriptive statistics, 
 Control chart threshold selection, 
 Baseline comparison analysis
+
+Conclusion
+
+CUSUM analysis shows that states seasonal transition from summer to fall remains stable over 20 years, consistently occurring in September. However, a second long-term analysis suggests a warming shift beginning around 2011, indicating potential structural change in summer temperature levels.
