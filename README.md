@@ -16,6 +16,7 @@ The project combines time-series smoothing, statistical process control (CUSUM),
 Methodology
  
 1. Data Exploration
+
 Visualized daily temperature curves for each year
 Observed consistent seasonal pattern: peak in July–August followed by gradual cooling in September–October
 Identified clear within-year structural change point (summer - fall transition)
@@ -25,11 +26,13 @@ Identified clear within-year structural change point (summer - fall transition)
 A CUSUM (Cumulative Sum Control Chart) method was applied separately for each year to detect when temperatures consistently shifted downward.
 
 Approach:
+
 Baseline period: July–August (assumed “in-control” summer period)
 Detection goal: Identify sustained cooling in September–October
 CUSUM parameters:
 Reference value: based on half standard deviation (k = σ/2)
 Decision interval: H = 50 (chosen to avoid false alarms in stable summer period)
+
 Rationale:
 
 The threshold was selected so that no false change signals occur during July–August, while still allowing detection of sustained cooling in early fall.
@@ -93,7 +96,8 @@ Overall Findings
 1. Seasonal pattern (within-year)
 “End of summer” consistently occurs in early to late September
 No clear long-term shift toward later or earlier seasonal cooling
-2. Climate trend (between-year)
+
+3. Climate trend (between-year)
 Evidence suggests a warming shift starting around 2011
 Later years show sustained positive deviation from historical baseline
 
