@@ -98,8 +98,8 @@ Evidence suggests a warming shift starting around 2011
 Later years show sustained positive deviation from historical baseline
 
 🧠 Methods Used
-CUSUM (Cumulative Sum Control Charts)
-Time-series visualization
-Descriptive statistics
-Control chart threshold selection
+CUSUM (Cumulative Sum Control Charts), 
+Time-series visualization, 
+Descriptive statistics, 
+Control chart threshold selection, 
 Baseline comparison analysis
